@@ -14,6 +14,8 @@
 <body>
   <?php echo $this->include('plantilla/header') ?>
 
+  <?php echo $this->include('plantilla/menu') ?>
+
   <main>
     <?php echo $this->renderSection('contenido') ?>
   </main>
