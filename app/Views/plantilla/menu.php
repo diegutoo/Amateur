@@ -8,5 +8,10 @@
     <a href="<?= base_url('/planes') ?>">Planes</a>
     <a href="<?= base_url('/inscripcion') ?>">Inscripción</a>
     <a href="<?= base_url('/contacto') ?>">Contacto</a>
+
+            <a class="btn btn-outline-success ms-2" href="<?= base_url('/login') ?>">
+              <i class="bi bi-box-arrow-in-right"></i> Iniciar sesión
+            </a>
+
   </nav>
-</header>
+</header> 

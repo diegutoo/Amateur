@@ -15,3 +15,6 @@ $routes->get('/inscripcion', 'Inscripcion::index');
 $routes->post('/inscripcion/guardar', 'Inscripcion::guardar');
 $routes->get('/contacto', 'Contacto::index');
 
+$routes->get('login', 'Auth::index');          // muestra el formulario
+$routes->post('login/acceder', 'Auth::acceder'); // procesa el login
+$routes->get('logout', 'Auth::salir');
