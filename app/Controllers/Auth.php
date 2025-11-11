@@ -37,4 +37,10 @@ class Auth extends BaseController
         session()->destroy();
         return redirect()->to(site_url('login'));
     }
+
+    public function crear_usuario()
+    {
+        return view('pagina/create_l');
+
+    }
 }

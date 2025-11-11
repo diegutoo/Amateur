@@ -3,7 +3,7 @@
   
   <nav>
     <a href="<?= base_url('/') ?>">Inicio</a>
-    <a href="<?= base_url('/quienes-somos') ?>">Quiénes Somos</a>
+    <a href="<?= base_url('/quienes_somos') ?>">Quiénes Somos</a>
     <a href="<?= base_url('/servicios') ?>">Nuestros Programas</a>
     <a href="<?= base_url('/planes') ?>">Planes</a>
     <a href="<?= base_url('/inscripcion') ?>">Inscripción</a>

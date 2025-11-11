@@ -1,7 +1,7 @@
 <?php echo $this->extend('plantilla/layout');?>
 <?php echo $this->section('contenido');?>
 
-<section id="quienes-somos" class="centrado" data-aos="fade-up">
+<section id="quienes_somos" class="centrado" data-aos="fade-up">
   <h2>Quiénes Somos</h2>
   <p>Somos un Club de entrenamiento netamente dirigido, enfocado en salud. Utilizamos entrenamientos de contacto como Artes Marciales Mixtas y Fortalecimiento Muscular. Nos apasiona guiar y mejorar la calidad de vida de nuestros usuarios, logrando que mejoren su confianza, mentalidad, enfoque y físico que se requiere para hacer grandes personas y/o deportistas</p>
   <div class="mision-vision">
